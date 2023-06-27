@@ -1,0 +1,123 @@
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+    
+}
+
+.section-01,
+.footer {
+    background-color: #1f2937;
+}
+
+.section-01 {
+    height: 520px;
+    padding: 8px 200px 16px 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+.left-links {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.right-links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+.hero-sec-text, 
+.image-info,
+.right-links {
+    font-size: 18px;
+    color: #E5E7Eb;
+    filter: contrast(50%);
+}
+
+.hero-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.hero-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.button {
+    font-size: 18px;
+    color: #E5E7Eb;
+    background-color: #3882f6;
+    font-weight: bold;
+    height: 36px;
+    width: 130px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.right-side {
+    box-sizing: border-box;
+    width: 550px;
+    height: 250px;
+    background-color: #848a99d3;
+    display: flex;
+    flex-flow: row-nowrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.left-side {
+    box-sizing: border-box;
+    display: flex;
+    width: 500px;
+    height: 250px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0px;
+    padding-right: 40px;
+}
+
+p,
+h1 {
+    margin: 0;
+    padding: 0;
+
+}
