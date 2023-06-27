@@ -2,8 +2,7 @@ html, body {
     box-sizing: border-box;
     height: 100%;
     font-family: Roboto, sans-serif;
-    margin: 0px;
-    
+    margin: 0px;  
 }
 
 /*This is section-01*/
@@ -27,6 +26,8 @@ html, body {
     justify-content: space-between;
     align-items: center;
     height: 50px;
+    width: 1000px;
+    margin: 0 auto 0 auto;
 }
 
 ul {
@@ -95,7 +96,7 @@ a {
 
 .right-side {
     box-sizing: border-box;
-    width: 550px;
+    width: 500px;
     height: 250px;
     background-color: #848a99d3;
     display: flex;
@@ -149,8 +150,7 @@ h3 {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 50px;
-    
+    gap: 50px; 
 }
 
 .image {
@@ -225,9 +225,14 @@ h3 {
 
 /*for header-text declarations see section-01*/
 
-.sub-text {
+.sub-text,
+.footer {
     color: white;
     font-size: 18px;
+}
+
+.sub-text,
+.footer p {
     filter:opacity(75%)
 }
 
@@ -241,4 +246,10 @@ h3 {
 
 /*This is the footer*/
 
-
+.footer {
+    height: 100px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
