@@ -130,7 +130,8 @@ h1 {
 }
 
 h3,
-.subtext {
+.subtext,
+.section-03 {
     color: #1f2937;
 }
 
@@ -171,7 +172,33 @@ h3 {
 
 /*This is section-03*/
 
+.section-03 {
+    background-color: #E5E7Eb;
+    font-size: 36px;
+    
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.section-03 p {
+    width: 790px;
+    margin: 0 auto;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.credits {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: bold;
+    text-align: right;
+}
+
+/*This is section-04*/
 
 
 
