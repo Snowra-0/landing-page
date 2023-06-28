@@ -176,16 +176,14 @@ h3 {
 
 .section-03 {
     background-color: #E5E7Eb;
-    font-size: 36px;
     height: 400px;
+    font-size: 36px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.section-03 p {
-    width: 790px;
-    margin: 0 auto;
+    align-items: center;
+    padding: 8px 200px 16px 200px;
+    gap: 20px;
 }
 
 .quote {
@@ -196,7 +194,7 @@ h3 {
     font-size: 24px;
     font-weight: 700;
     font-style: bold;
-    text-align: right;
+    align-self: flex-end;
 }
 
 /*This is section-04*/
